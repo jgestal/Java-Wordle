@@ -1,22 +1,6 @@
-package app;
+package ui;
 
 public class ConsoleColors {
-	
-	public static final String colorizedString(String colorCode, String str) {
-		return colorCode + str + RESET;
-	}
-
-	public static final String redString(String str) {
-		return RED + str + RESET;
-	}
-	
-	public static final String greenString(String str) {
-		return GREEN + str + RESET;
-	}
-
-	public static final String yellowString(String str) {
-		return YELLOW + str + RESET;
-	}
 	
     // Reset
     public static final String RESET = "\033[0m";  // Text Reset
@@ -90,6 +74,5 @@ public class ConsoleColors {
     public static final String PURPLE_BACKGROUND_BRIGHT = "\033[0;105m"; // PURPLE
     public static final String CYAN_BACKGROUND_BRIGHT = "\033[0;106m";  // CYAN
     public static final String WHITE_BACKGROUND_BRIGHT = "\033[0;107m";   // WHITE
-
 
 }
